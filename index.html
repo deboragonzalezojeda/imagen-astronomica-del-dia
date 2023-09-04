@@ -17,23 +17,25 @@
 
     <div class="container-fluid">
         <div class="container row text-center">
-            <div class="bg-dark bg-gradient rounded m-5 p-3">
-                <h1 class="text-white display-1">Imágen Astronómica del Día</h1>
-                <p class="text-white lead">{ NASA APIs }</p>
-            </div>
-
-            <div class="bg-dark bg-gradient rounded mx-5 pb-4">
-                <h2 class="text-white display-4 p-2">Busca la Imágen del Día</h2>
-                <div class="px-5">
-                    <label for="dateInput"></label>
-                    <input type="date" min="1995-06-16" id="dateInput" class="form-control">
-                    <div class="form-text">
-                        <p class="text-white">La fecha ingresada debe ser entre el 16 de Junio de 1995 y el día de hoy.</p>
-                    </div>
-                    <button class="btn btn-light" id="image-search">Ver Imagen</button>
-
-                    <div class="alert alert-secondary  alert-dismissible fade" role="alert" id="alert">
-                        Debe ingresar una fecha para continuar
+            <div class="col-md-10 offset-md-2">
+                <div class="bg-dark bg-gradient rounded m-5 p-3">
+                    <h1 class="text-white display-1">Imágen Astronómica del Día</h1>
+                    <p class="text-white lead">{ NASA APIs }</p>
+                </div>
+    
+                <div class="bg-dark bg-gradient rounded mx-5 pb-4">
+                    <h2 class="text-white display-4 p-2">Busca la Imágen del Día</h2>
+                    <div class="px-5">
+                        <label for="dateInput"></label>
+                        <input type="date" min="1995-06-16" id="dateInput" class="form-control">
+                        <div class="form-text">
+                            <p class="text-white">La fecha ingresada debe ser entre el 16 de Junio de 1995 y el día de hoy.</p>
+                        </div>
+                        <button class="btn btn-light" id="image-search">Ver Imagen</button>
+    
+                        <div class="alert alert-secondary  alert-dismissible fade" role="alert" id="alert">
+                            Debe ingresar una fecha para continuar
+                        </div>
                     </div>
                 </div>
             </div>
