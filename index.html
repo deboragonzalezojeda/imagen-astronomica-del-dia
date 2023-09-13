@@ -18,16 +18,16 @@
     <div class="container-fluid">
         <div class="container row text-center">
             <div class="col-md-10 offset-md-2">
-                <div class="bg-dark bg-gradient rounded m-5 p-3">
-                    <h1 class="text-white display-1">Imágen Astronómica del Día</h1>
+                <div class="rounded m-5 p-3" id="first-container">
+                    <h1 class="text-white display-4">Imágen Astronómica del Día</h1>
                     <p class="text-white lead">{ NASA APIs }</p>
                 </div>
     
-                <div class="bg-dark bg-gradient rounded mx-5 mb-5 pb-4">
-                    <h2 class="text-white display-4 p-2">Busca la Imágen del Día</h2>
+                <div class="rounded mx-5 mb-5 py-4" id="second-container">
+                    <h2 class="text-white display-6 p-2">Busca la Imágen del Día</h2>
                     <div class="px-5">
                         <label for="dateInput"></label>
-                        <input type="date" min="1995-06-16" id="dateInput" class="form-control">
+                        <div id="input-div"></div>
                         <div class="form-text">
                             <p class="text-white">La fecha ingresada debe ser entre el 16 de Junio de 1995 y el día de hoy.</p>
                         </div>
